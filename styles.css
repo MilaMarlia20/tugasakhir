@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    background-color: #222831 ;
+    color: #eeeeee ;
+    text-align: center;
+    font-family: "fira sans", sans-serif;
+}
+h1 {
+    margin-bottom: 50px ;
+}
+h2 {
+    color:#00ADB5;
+}
+
+p {
+    line-height: 1.5;
+}
+a {
+    color: #00ADB5;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+.wrapper {
+    width: 720px;
+    padding-top: 225px ;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 200px ;
+
+}
+/* section pertama */
+.intro {
+    text-align: left;
+}
+.foto-profil {
+    width: 300px;
+    float: right ;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.btn {
+   background-color: indigo;
+   color: white; 
+   padding: 12px 30px;
+   border-radius: 5px ;
+   display: inline-block;
+
+}
+.title {
+    /* 1em - 16 em  */
+    font-size: 4.5rem;
+    font-weight: bold ;
+    font-family: "caveat", cursive;
+    display: block;
+}
+
+.skill-row {
+    text-align: left ;
+    margin-bottom: 100px;
+
+}
+.ux-skill-img {
+    float: left;
+    width: 300px;
+    margin-right: 30px ;
+}
+
+.web-skill-img {
+    float : right;
+    width: 300px;
+    margin-left : 30px;
+}
+
+.cta-text {
+    width: 68%;
+    margin : 0 auto 12px auto;
+}
+.footer {
+    background-color: #393e46;
+    padding: 30px 0 20px;
+}
+.social-links {
+    margin : 0 12px 20px;
+    
+}
+.footer-text {
+    font-size: 14px ;
+    margin-top: 30px ;
+}
+
+#attribute {
+    position: absolute ;
+    left: 320px;
+    top: 150px;
+} 
